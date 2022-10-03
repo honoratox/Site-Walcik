@@ -9,44 +9,98 @@
 </head>
 <body>
 
-    <h1>
-        <p align="center" size="5" color="#0000CD">Jubileu de Prata - Pre. Walcik Catarino Honorato</p>
-    
-    </h1>
 
-    <!-- Cabeçalho-->
+    <!-- Cabeçalho -->
     <header>
-        <nav class ="caixa-menuprincipal">
-            <div class="menu">
-                <ul>
-                    <li><a href="index.html">Início</a></li>
-                    <li><a href="presenca.html">Confirme sua presença</a></li>
-                    <li><a href="presentes.html">Lista de presentes</a></li>
-                    <li><a href="#trajetoria">Trajetória</a></li>
-                </ul>
-            </div>
-        </nav>
+        <div class="cabecalho">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="#historia">Minha História</a></li>
+                <li><a href="presenca.html">Confirmar Presença</a></li>
+                <li><a href="presentes.html">Lista de Presentes</a></li>
+            </ul>
+        </div>
     </header>
 
 
-    <!-- Conteúdo do Site-->
-   <main>
-     <h1 class="trajetoria" id="trajetoria">Trajetória</h1>
-     <p>Me chamo Walcik e sou padre hà 30 anos</p>
-     <p>Já morei na Itália</p>
-    </main>
+    <!-- Tútulo Principal -->
+    <div class="titulo-principal">
+        <h1>Jubileu de Prata - Pre. Walcik Catarino Honorato</h1>
+    </div>
 
-    <!-- Imagens do Site -->
-    <aside>
-        <div class ="imagens">
-            <ul>
-                <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9FAacpUhG_dSW-gcUHqEZiQiwWiwR7cN-5V0NMjmmlg&sP" alt="imagem de destaque"></li>
-                <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9FAacpUhG_dSW-gcUHqEZiQiwWiwR7cN-5V0NMjmmlg&sP" alt="imagem de destaque"></li>
-                <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9FAacpUhG_dSW-gcUHqEZiQiwWiwR7cN-5V0NMjmmlg&sP" alt="imagem de destaque"></li>
 
+
+    <!-- Slider -->
+   <div class="slider">
+    <div class="slides">
+        <!--Início radio btn-->
+        <input type="radio" name="radio-btn" id="radio1">
+        <input type="radio" name="radio-btn" id="radio2">
+        <input type="radio" name="radio-btn" id="radio3">
+        <input type="radio" name="radio-btn" id="radio4">
+        <!--fim radio btn-->
+
+        <!--slides images-->
+        <div class="slide first">
+            <img src="img/teste1.jfif" alt="img1">
         </div>
-    </aside>
+        <div class="slide">
+            <img src="img/teste2.jfif" alt="img2">
+        </div>
+        <div class="slide">
+            <img src="img/teste3.jfif" alt="img3">
+        </div>
+        <div class="slide">
+            <img src="img/teste4.jpg" alt="img4">
+        </div>
+        <!--fim slides images-->
+
+        <!--navigation auto-->
+        <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+            <div class="auto-btn4"></div>
+        </div>
+        <!--fim navigation auto-->
+
+    </div>
 
 
+    <div class="manual-navigation">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+        <label for="radio4" class="manual-btn"></label>
+    </div>
+
+   </div>
+
+
+
+    <!-- História -->
+    <div class="texto-principal" id="historia">
+        <h2 class="txt-historia">Minha História</h2>
+   <!-- Título Principal -->
+        <div class="txt-historia">
+            <p>Meu nome é Walcik Catarino Honorato, sou padre a x anos...</p>
+            . <br>
+            . <br>
+            . <br>
+            . <br>
+            . <br>
+            . <br>
+            . <br>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
 </body>
 </html>
