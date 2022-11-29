@@ -1,106 +1,103 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="pt-br">
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width = device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Site Walcik</title>
-</head>
-<body>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <title>Jubileu de Prata</title>
+  </head>
 
-
-    <!-- Cabeçalho -->
-    <header>
-        <div class="cabecalho">
-            <ul>
-                <li><a href="index.html">Início</a></li>
-                <li><a href="#historia">Minha História</a></li>
-                <li><a href="presenca.html">Confirmar Presença</a></li>
-                <li><a href="presentes.html">Lista de Presentes</a></li>
+    <!--Cabeçalho-->
+    <header class="cabecalho">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"> <img src="img/logo.png" alt="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="menu-area">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Início</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#historia">Minha História</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="presenca.html">Confirmar Presença</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="presentes.html">Lista de Presentes</a>
+              </li>
             </ul>
+          </div>
+          <div class="titulo">
+            <h1><font face="Times New Roman" size="6">Jubileu de Prata - Pe. Walcik Catarino Honorato</font></h1>
+          </div>
         </div>
+      </nav>
     </header>
 
 
-    <!-- Tútulo Principal -->
-    <div class="titulo-principal">
-        <h1>Jubileu de Prata - Pre. Walcik Catarino Honorato</h1>
-    </div>
-
-
-
-    <!-- Slider -->
-   <div class="slider">
-    <div class="slides">
-        <!--Início radio btn-->
-        <input type="radio" name="radio-btn" id="radio1">
-        <input type="radio" name="radio-btn" id="radio2">
-        <input type="radio" name="radio-btn" id="radio3">
-        <input type="radio" name="radio-btn" id="radio4">
-        <!--fim radio btn-->
-
-        <!--slides images-->
-        <div class="slide first">
-            <img src="img/teste1.jfif" alt="img1">
+    <!--Conteúdo do portal-->
+    <main class="container main col-12" id="main">
+        <div class="historia" id="historia"><br>
+            <h3>Minha História</h3>
+            <div class="txt-historia">
+                <p>
+                    ,<br>
+                    ,<br>
+                    ,<br>
+                    ,<br>
+                    ,<br>
+                    ,<br>
+                    ,<br>
+                    ,<br>
+                    ,<br>
+                    ,<br>
+                    ,<br>
+                    ,<br>
+                    ,<br>
+                    ,<br>
+                    ,<br>
+                    ,<br>
+                    ,<br>
+                    ,<br>
+                    ,<br>
+                    ,<br>
+                </p>
+            </div>
+            <div class="citacao">
+                <p>
+                    <font face="comic sans" size="5"><b><i>
+                        "Se a chama que arde dentro de ti se apagar, as almas que estão ao teu lado morrerão de frio."<br>
+                    </i></b></font>
+                    <font size="4">François Mauriac</font>
+                </p>
+            </div>
         </div>
-        <div class="slide">
-            <img src="img/teste2.jfif" alt="img2">
+    </main>
+
+    <!--Rodapé-->
+    <footer class="footer bg-dark">
+      <div class="footer-area row">
+        <div class="creditos col-12">
+          Copyright 2022 - Jubileu de Prata Pe. Walcik Catarino Honorato
         </div>
-        <div class="slide">
-            <img src="img/teste3.jfif" alt="img3">
-        </div>
-        <div class="slide">
-            <img src="img/teste4.jpg" alt="img4">
-        </div>
-        <!--fim slides images-->
+        <a class="navbar-brand" href="index.html"> <img src="img/logo.png" alt="logo"></a>
+      </div>
+    </footer>
 
-        <!--navigation auto-->
-        <div class="navigation-auto">
-            <div class="auto-btn1"></div>
-            <div class="auto-btn2"></div>
-            <div class="auto-btn3"></div>
-            <div class="auto-btn4"></div>
-        </div>
-        <!--fim navigation auto-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+      crossorigin="anonymous">
+    </script>
+    <script src="app.js"></script>
 
-    </div>
+  </body>
 
-
-    <div class="manual-navigation">
-        <label for="radio1" class="manual-btn"></label>
-        <label for="radio2" class="manual-btn"></label>
-        <label for="radio3" class="manual-btn"></label>
-        <label for="radio4" class="manual-btn"></label>
-    </div>
-
-   </div>
-
-
-
-    <!-- História -->
-    <div class="texto-principal" id="historia">
-        <h2 class="txt-historia">Minha História</h2>
-   <!-- Título Principal -->
-        <div class="txt-historia">
-            <p>Meu nome é Walcik Catarino Honorato, sou padre a x anos...</p>
-            . <br>
-            . <br>
-            . <br>
-            . <br>
-            . <br>
-            . <br>
-            . <br>
-        </div>
-    </div>
-
-
-
-
-
-
-
-
-    <script src="script.js"></script>
-</body>
 </html>
