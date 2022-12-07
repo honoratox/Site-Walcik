@@ -29,6 +29,14 @@ main{
 }
 /*----------------------------------------------------------------*/
 
+ /*.txt-historia2{
+   background-color: #212429;
+}*/
+
+.citacao {
+    text-align-last: center;
+}
+
 .qrcode img{
     height: 540px;
     width: 479px;
