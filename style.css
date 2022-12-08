@@ -89,16 +89,76 @@ main{
 
 /*----------------------------------------------------------------*/
 
-
-
-
+/*história*/
 .citacao {
     text-align-last: center;
 }
 
-.qrcode img{
-    height: 540px;
-    width: 479px;
+/*----------------------------------------------------------------*/
+
+/*presentes*/
+#qrcode img{
+  height: 400px;
+  width: 450px;
+}
+
+.container{
+  width: 100%;
+  min-height: 60vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.box{
+  width: 250px;
+  height: 350px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.box img{
+  height: 280px;
+  width: 200px;
+}
+
+.box h2{
+  text-transform: uppercase;
+  color: black;
+}
+
+.box .content{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: -100%;  
+  transition: .5s ease-in-out;
+  padding: 70px 20px;
+}
+
+.box .content::after{
+  content: '';
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #99999922;
+}
+
+.box:hover .content{
+  transform: translate(100%);
+}
+
+.box .content p{
+  color: black;
+  background: white;
+  letter-spacing: 1px;
 }
 
 /*----------------------------------------------------------------*/
