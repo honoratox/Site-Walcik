@@ -6,13 +6,10 @@ html{
 main{
     width: 100%;
 }
-/*----------------------------------------------------------------*/
-
-
 
 /*----------------------------------------------------------------*/
-
 /*Cabeçalho*/
+
 .nav-item a:hover{
     background-color: #000000;
     border-radius: 10px;
@@ -152,11 +149,17 @@ main{
 
 /*----------------------------------------------------------------*/
 /*presentes*/
-#qrcode img{
-  height: 400px;
-  width: 450px;
+.qrcode{
+    height: 0;
+    padding-top: 25px;
+    padding-bottom: 56.25%;
+    position: relative;
 }
 
+.qrcode img{
+    height: 540px;
+    width: 479px;
+}
 
 /*----------------------------------------------------------------*/
 .container{
