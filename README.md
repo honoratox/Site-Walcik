@@ -1,7 +1,9 @@
-#Primeiro projeto / First project
+# Primeiro projeto / First project
 
-##Português
+## Português
+
 Primeiro projeto frontend em que pude desenvovler minhas habilidades em HTML e CSS puro
 
-##English
+## English
+
 First project in frontend, where i ws develop my skills in pure HTML and CSS
